@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SAConfettiView"
-  s.version          = "0.1.8"
+  s.version          = "0.1.9"
   s.summary          = "Confetti! Who doesn't like confetti?'"
 
 # This description is used to generate tags and improve search results.
@@ -20,17 +20,19 @@ Pod::Spec.new do |s|
                         SAConfettiView is the quickest way to add confetti to your application and make your users feel rewarded.
                        DESC
 
-  s.homepage         = "https://github.com/sudeepag/SAConfettiView"
+  s.homepage         = "https://github.com/alexswipeios/SAConfettiView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Sudeep Agarwal" => "sudeep135@gmail.com" }
-  s.source           = { :git => "https://github.com/sudeepag/SAConfettiView.git", :tag => s.version.to_s }
+  s.swift_version = '5.0'
+  s.source           = { :git => "https://github.com/alexswipeios/SAConfettiView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
+  
   s.resource_bundles = {
     'SAConfettiView' => ['Pod/Assets/*.png']
   }

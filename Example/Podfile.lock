@@ -1,16 +1,16 @@
 PODS:
-  - SAConfettiView (0.1.8)
+  - SAConfettiView (0.1.9)
 
 DEPENDENCIES:
   - SAConfettiView (from `../`)
 
 EXTERNAL SOURCES:
   SAConfettiView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  SAConfettiView: 5bfa62256eb326faebe426319143ccfe5be92f35
 
 PODFILE CHECKSUM: 9dac5126b67336258912ceb8c97cff88e46fa404
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.7.5
